@@ -26,6 +26,6 @@ jobs:
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots verify
       - name: Build docker image
-        run: mvn jib:dockerBuild
+        run: mvn jib:dockerBuild -Dtag=${{github.sha}}
       - name: List docker images
         run: docker images
