@@ -29,7 +29,7 @@
     <properties>
         <java.version>21</java.version>
         <jib-maven-plugin.version>3.4.5</jib-maven-plugin.version>
-        <tag>latest123</tag><!--Fallback value for local env-->
+        <tag>dev</tag><!--Fallback value for local env-->
     </properties>
     <dependencies>
         <dependency>
